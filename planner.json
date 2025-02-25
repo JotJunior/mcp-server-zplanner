@@ -1,0 +1,11 @@
+{
+  "project": "Novo Projeto",
+  "last_update": "24/02/2025",
+  "phases": {
+    "main": {
+      "name": "Test Project",
+      "executed": false,
+      "tasks": []
+    }
+  }
+}
