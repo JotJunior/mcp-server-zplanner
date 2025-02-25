@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-// Ensure this file is executable when installed globally
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import {
@@ -25,7 +24,7 @@ const planner = new ProjectPlanner(path.join(process.cwd(), 'planner.json'));
 
 const server = new Server(
   {
-    name: "zplanner-mcp-server",
+    name: "mcp-server-zplanner",
     version: "1.0.0",
   },
   {
